@@ -1,0 +1,116 @@
+.inner{width:1280px; margin:0 auto;}
+
+#wrap{}
+#header{}
+#section{}
+#footer{}
+
+/*********************header****************************/
+
+#header .logo{font-weight:300; font-size:23px;
+              padding:30px 0 10px 180px;
+              margin:0;}
+
+
+
+/**************sec1*************/
+
+#sec1 {background-color: #94829a; height:1080px; color:#fff;}
+#sec1 .content1{padding-top:150px; padding-left:220px; }
+#sec1 .content1 ul li{float:left;}
+#sec1 .content1 p{font-size:60px; font-weight:bold; font-family: 'GyeonggiBatang';}
+#sec1 .content1 p:first-child{padding-top:130px;}
+#sec1 .content1 span{display:block; margin-top:20px;}
+
+/**************sec2*************/
+
+#sec2 .sec2_cont{margin-left:70px;}
+
+#sec2 .sec2_tit{margin-top:150px; margin-bottom:25px; }
+#sec2 .sec2_tit p > span{display:block; width:30px; height:2px;
+                         background-color: #94829a; margin-bottom:0.5rem;}
+#sec2 .sec2_tit h1{font-size:50px; font-weight:300; margin-top:2rem; font-family: 'GyeonggiBatang';}
+
+#sec2 .sec2_cont .profile{float:left;}
+
+#sec2 .sec2_cont .profile1{margin-right:180px;}
+#sec2 .sec2_cont .profile1 ul li:nth-child(2){font-size:18px; margin-bottom:40px;}
+#sec2 .sec2_cont .profile1 ul li:nth-child(3), #sec2 .sec2_cont .profile1 ul li:nth-child(4), #sec2 .sec2_cont .profile1 ul li:nth-child(5), #sec2 .sec2_cont .profile1 ul li:nth-child(6){font-weight: bold; line-height: 2rem;}
+#sec2 .sec2_cont .profile1 ul li:nth-child(6){margin-bottom:20px;}
+#sec2 .sec2_cont .profile1 .normal1{font-weight: normal; margin-left: 35px;}
+#sec2 .sec2_cont .profile1 .normal{font-weight: normal; margin-left: 30px;}
+
+#sec2 .sec2_cont .skill{margin-bottom:10px;}
+#sec2 .sec2_cont .progressbar{margin-left:30px; margin-right:20px;}
+#sec2 .sec2_cont .progressbar2{margin-left:17px; margin-right:20px;}
+
+
+#sec2 .sec2_cont .profile2{position:relative; margin-top:170px;}
+#sec2 .sec2_cont .profile2 p{width:400px; height:500px;
+                             border:8px solid #94829a;
+                             position:absolute; top:50px; left:-80px;}
+
+
+
+/**************sec3*************/
+
+/*#sec3{margin-bottom:150px;}
+#sec3 h1{text-align: center; font-size:35px;
+          margin-top:150px; margin-bottom:15px;}
+#sec3 .s_tit{text-align: center; margin-bottom:40px;}
+#sec3 .slider{width:100%; height:600px; background-color: #fff;
+          border-top:8px solid #94829a; border-bottom:8px solid #94829a;
+          box-sizing: border-box;}
+#sec3 .pcimg{padding-top:120px; padding-left:80px;}
+#sec3 .pagego{display:block; margin-bottom:30px;}
+#sec3 article{float:left;}
+#sec3 .cont3_2{font-size:18px; height:600px; margin-left:60px; margin-top:60px;}
+#sec3 .cont3_2 ul{float:left; margin-right:35px; line-height:30px;}
+#sec3 .cont3_2 ul li:nth-child(6){margin-top:20px;}
+#sec3 .cont3_2_1{font-weight: bold;}
+#sec3 .cont3_2_2{margin-right:0; margin-bottom:30px;}
+#sec3 .view{padding-left:450px; transition:0.5s;}
+#sec3 .view:hover{font-weight: bold;}
+#sec3 .view span{display:inline-block; 
+                  width:70px; height:1px; background-color: #000;
+                  margin-bottom:6px; margin-right:5px;}*/
+
+
+#sec3 .sec3_tit{margin-top:150px; margin-left:70px;}
+#sec3 .sec3_tit p > span{display:block; width:30px; height:2px;
+                        background-color: #94829a; margin-bottom:0.5rem;}
+#sec3 .sec3_tit h1{font-size:50px; font-weight:300; margin-top:2rem;
+                   font-family: 'GyeonggiBatang';}
+
+
+#animatedModal .tit{color:#94829a; font-weight: bold;}
+#animatedModal h1{font-weight: bold;}
+#animatedModal span{margin-right:30px; font-weight: bold;}
+#animatedModal .s_tit{font-weight: bold; font-size:25px; font-family: 'GyeonggiBatang';}
+#animatedModal .s_tit > span{display:block; width:20px; height:2px;
+                             background-color: #94829a; margin-bottom:8px;}
+#animatedModal .menu01{margin-right:42px;}
+#animatedModal .menu02{margin-right:60px;}
+
+
+
+         
+/*footer*/
+
+#footer{margin-top:150px;}
+#footer .footer_tit{margin-top:150px; margin-left:70px;}
+#footer .footer_tit p > span{display:block; width:30px; height:2px;
+                        background-color: #94829a; margin-bottom:0.5rem;}
+#footer .footer_tit h1{font-size:50px; font-weight:300; margin-top:2rem;
+                       font-family: 'GyeonggiBatang';
+                       margin-bottom:50px;}
+
+
+#footer ul{margin-bottom:30px; margin-left:70px;}
+#footer ul li > span{font-weight: bold; padding-left:20px;}
+#footer .footer_s2{text-align: center; line-height: 2rem; margin-left:70px;}
+#footer .copyright{background-color:#94829a; width:100%;
+                   padding-top:25px; padding-bottom:25px;
+                   margin-top:75px;
+                   font-weight: bold; color:#fff;
+                   text-align: center;}

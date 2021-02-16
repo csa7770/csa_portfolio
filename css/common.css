@@ -1,0 +1,56 @@
+@charset "utf-8";
+
+/*googleips 웹폰트 css 파일 불러오기*/
+@import url(https://fonts.googleapis.com/css?family=Galada|Nanum+Gothic|Nanum+Myeongjo);
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;400;900&display=swap');
+/*font-family: 'Nanum Gothic', sans-serif;
+font-family: 'Nanum Myeongjo', serif;
+font-family: 'Galada', cursive; */
+
+/* 저장된 글꼴 파일 선언*/
+/* @font-face { font-family : font_gothic;    
+                src : url(../font/NanumGothic.ttf); }  */
+/* 웹사이트의 글꼴 파일 선언*/
+/* @font-face { font-family : font_gothic;    
+                src : url(http://uhbee.com/nanum.eot) ; }   */
+
+
+<link rel="stylesheet" type="text/css" href="https://cdn.rawgit.com/moonspam/NanumSquare/master/nanumsquare.css">
+.nanumsquare {font-family: 'NanumSquare', sans-serif !important;}
+
+@font-face {
+      font-family: 'GyeonggiBatang';
+      src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/GyeonggiBatang.woff') format('woff');
+      font-weight: normal;
+      font-style: normal;
+  }
+
+* {margin:0; padding:0;}
+html{font-size:16px;}
+body{font-size:16px;
+      color:#222;
+      font-family: 'NanumSquare', sans-serif !important;}
+ul, ol, li{list-style-type:none}
+img, fieldset{border:none;vertical-align: middle}
+hr {clear:both; border:none;}
+a {color:inherit;text-decoration:none;
+   outline:0;}
+table{border-collapse:collapse}
+input, textarea,
+input::placeholder, textarea::placeholder {color:inherit;font-size:inherit;
+                                           font-family:inherit;
+                                           vertical-align: middle}
+button{outline:0; border:none;}
+
+.soung_only{display:block; text-indent:-99999999999px; height:0;}
+
+/*.cursor{
+      position: absolute;
+      top:0;
+      left:0;
+      width:15px;
+      height:15px;
+      background:red;
+      border-radius:50%;
+      z-index:9999
+}*/
